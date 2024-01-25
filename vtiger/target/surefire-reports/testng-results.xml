@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-24T07:12:52Z" name="Suite" finished-at="2024-01-24T07:13:23Z" duration-ms="30942">
+    <groups>
+      <group name="regression">
+        <method signature="CreateOpportunitiesTest.createOpportunitiesWithOrganizationNameAndCampaignNameAndVerifyTest()[pri:0, instance:opportunities_module.CreateOpportunitiesTest@59e505b2]" name="createOpportunitiesWithOrganizationNameAndCampaignNameAndVerifyTest" class="opportunities_module.CreateOpportunitiesTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ToCreateALeadTest.toCreateALeadAndToVerifyTheLeadDetails()[pri:1, instance:leads_module.ToCreateALeadTest@82ea68c]" name="toCreateALeadAndToVerifyTheLeadDetails" class="leads_module.ToCreateALeadTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-01-24T07:12:52Z" name="Test" finished-at="2024-01-24T07:13:23Z" duration-ms="30942">
+      <class name="leads_module.ToCreateALeadTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:leads_module.ToCreateALeadTest@82ea68c]" started-at="2024-01-24T07:13:13Z" name="bcConfig" finished-at="2024-01-24T07:13:15Z" duration-ms="1619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:leads_module.ToCreateALeadTest@82ea68c]" started-at="2024-01-24T07:13:15Z" name="bmConfig" finished-at="2024-01-24T07:13:16Z" duration-ms="1580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="toCreateALeadAndToVerifyTheLeadDetails()[pri:1, instance:leads_module.ToCreateALeadTest@82ea68c]" started-at="2024-01-24T07:13:16Z" name="toCreateALeadAndToVerifyTheLeadDetails" finished-at="2024-01-24T07:13:22Z" duration-ms="5493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateALeadAndToVerifyTheLeadDetails -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:leads_module.ToCreateALeadTest@82ea68c]" started-at="2024-01-24T07:13:22Z" name="amConfig" finished-at="2024-01-24T07:13:23Z" duration-ms="947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:leads_module.ToCreateALeadTest@82ea68c]" started-at="2024-01-24T07:13:23Z" name="acConfig" finished-at="2024-01-24T07:13:23Z" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- leads_module.ToCreateALeadTest -->
+      <class name="opportunities_module.CreateOpportunitiesTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:opportunities_module.CreateOpportunitiesTest@59e505b2]" started-at="2024-01-24T07:12:52Z" name="bcConfig" finished-at="2024-01-24T07:12:54Z" duration-ms="2030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:opportunities_module.CreateOpportunitiesTest@59e505b2]" started-at="2024-01-24T07:12:54Z" name="bmConfig" finished-at="2024-01-24T07:12:56Z" duration-ms="1559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createOpportunitiesWithOrganizationNameAndCampaignNameAndVerifyTest()[pri:0, instance:opportunities_module.CreateOpportunitiesTest@59e505b2]" started-at="2024-01-24T07:12:56Z" name="createOpportunitiesWithOrganizationNameAndCampaignNameAndVerifyTest" finished-at="2024-01-24T07:13:12Z" duration-ms="16092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOpportunitiesWithOrganizationNameAndCampaignNameAndVerifyTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:opportunities_module.CreateOpportunitiesTest@59e505b2]" started-at="2024-01-24T07:13:12Z" name="amConfig" finished-at="2024-01-24T07:13:13Z" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:opportunities_module.CreateOpportunitiesTest@59e505b2]" started-at="2024-01-24T07:13:13Z" name="acConfig" finished-at="2024-01-24T07:13:13Z" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- opportunities_module.CreateOpportunitiesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
